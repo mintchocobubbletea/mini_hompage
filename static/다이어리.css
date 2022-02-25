@@ -1,0 +1,79 @@
+/*다이어리 윗부분 날짜 플렉스&색깔*/
+.date{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 3rem;
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin: 15px 10px 15px 40px;
+    width: 400px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.day{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+.day div{
+    margin: 0px 3px;
+    height: 18px;
+}
+.date>span{
+    color: rgb(50, 50, 248);
+    font-weight: bold;
+    margin: 4px 3px 2px 5px;
+}
+.day span{
+    font-weight: bold;
+}
+.satur{
+    color: rgb(50, 50, 248);
+}
+.sun{
+    color: rgb(255, 73, 73);
+}
+/*다이어리 스크롤*/
+.diary{
+    margin-top: 2rem;
+    font-family: 'GangwonEdu_OTFBoldA';
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 370px;
+}
+.diary>div:not(.button-box){
+    border: 1px solid gray;
+    margin: 0px 0px 20px 20px;
+    text-align: center;
+    width: 440px;
+}
+.diary> div> div{
+    color: rgb(50, 50, 248);
+    text-align: left;
+    margin: 10px 0px 0px 20px;
+}
+.middle-box>div{
+    margin-left: 7px;
+
+}
+
+
+/*비밀일기 부분*/
+.diary button{
+    color: white;
+    background-color: white;
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    width: 200px;
+    margin-left: 140px;
+}
+.diary button:hover{
+    transition: 800ms ease all;
+    background-color: mediumaquamarine;
+}
+#secret-box {
+    display: none;
+  }

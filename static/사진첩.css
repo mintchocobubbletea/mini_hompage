@@ -1,0 +1,29 @@
+.middle-box>div{
+    overflow: auto;
+}
+.middle-box > div>div{
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.text_line{
+    background-color: rgb(212, 211, 211);
+    font-family: 'CookieRun-Regular';
+    padding: 3px 10px;
+}
+.picture_width{
+    width: 350px;
+    height: 370px;    
+    display: block;
+    margin: auto;
+}
+.picture_width img{
+    height: 100%;
+    width: 300px;
+    padding: 5px 0px;
+
+}
+.middle-box p{
+    margin: 20px 10px;
+    font-family: 'GangwonEdu_OTFBoldA';
+}

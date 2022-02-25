@@ -1,0 +1,171 @@
+.left-container {
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    margin-right: 22px;
+  }
+  
+  .left-container span {
+    color: red;
+  }
+  
+  .left-title {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  
+  .left-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 195px; height: 485px;
+    position: relative;
+  }
+  
+  p{
+    margin: 20px 10px;
+    line-height: 140%;
+  }
+  
+  img{
+    width: 160px;
+    padding: 10px 10px;
+    display: block; margin: 0px auto; 
+  }
+  
+  .my_introduce, .daily_talk{
+    font-family: 'GangwonEdu_OTFBoldA';
+  }
+  
+  .left-box button{
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    margin-top: 100px;
+    background-color: aliceblue;
+  }
+  .left-box button:hover{
+    background-color: gray;
+  }
+
+  /*column*/
+  
+  .middle-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .middle-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middle-title {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 0px;
+  }
+  
+  .middle-title-url {
+    margin-left: 250px;
+  }
+  
+  .inbox_title{
+    font-family: 'CookieRun-Regular';
+    border-bottom: 1px solid gray;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+    font-size: 130%;
+  }
+  
+  .daily_chat span{
+    color: white;
+    padding: 0px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0px 10px;
+  }
+  
+  .daily_chat, .chat_series{
+    padding: 10px;
+  }
+  
+  .picture{
+    background-color: rgb(255, 53, 53);
+  }
+  
+  .chat{
+    background-color: rgb(69, 69, 253);
+  }
+  
+  .chat_texts{
+    margin: 3px 0px;
+  }
+  
+  .daily_mint, .miniroom, .daily_chat, .chat_series, .series_blocks{
+    flex: 1;
+  }
+  
+  .daily_talk{
+    display: flex;
+  }
+  
+  .chat_series{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block{
+    border-bottom: 1px dashed gray;
+    margin-bottom: 8px;
+    padding-bottom: 3px;
+    display: flex;
+  }
+  
+  .daily_chat{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .series_blocks span{
+    color: blue;
+  }
+  
+  .miniroom img{
+    width: 470px;
+  }
+
+  /*menubox*/
+  .right-container {
+    flex: 0.15;
+    border: none!important;
+  }
+  .menu_series{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .menu_series a{
+    border: 1px solid rgb(46, 165, 235);;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(46, 165, 235);
+    color: white;
+    margin: 7px 0px;
+    width: 110%;
+    padding: 7px 0px 5px 3px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    text-decoration: none;
+  }
+  .menu_series a:hover{
+    background-color: rgb(26, 83, 116);
+    border-color: rgb(26, 83, 116);
+  }

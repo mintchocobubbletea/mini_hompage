@@ -1,0 +1,38 @@
+/*방명록 네임카드 부분*/
+.name_card{
+    background-color: rgb(221, 215, 215);
+    padding: 5px 0px 5px 10px;
+}
+.name_card span{
+    color: blue;
+}
+
+/*방명록 사진 부분*/
+.background_pic{
+    background-image: url("./images/방명록배경.jpg");
+}
+.profile_picture{
+  flex: 0 0 8rem;
+  height: 8rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_picture>img{
+    width: 80%;
+}
+/*방명록 뼈대*/
+.middle-box>div{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+.guest_text{
+    display: flex;
+    margin-top: 10px;
+}
+.middle-box>div>div{
+    margin: 15px 15px;
+}
